@@ -6,5 +6,5 @@ import (
 )
 
 func TestI_F(t *testing.T) {
-	new(mocks.Iface())
+	mocks.NewI(t)
 }
